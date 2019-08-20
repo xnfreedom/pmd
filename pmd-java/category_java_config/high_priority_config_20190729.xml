@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name="pmd_high_priority"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+  <description>
+      Rules specific to 1/2 priority
+  </description>
+
+    <!-- Rules, that have been moved into a category -->
+
+<rule ref="category/java/bestpractices.xml/AvoidReassigningParameters" deprecated="true" />
+<rule ref="category/java/bestpractices.xml/GuardLogStatement" deprecated="true" />
+<rule ref="category/java/bestpractices.xml/SystemPrintln" deprecated="true" />
+<rule ref="category/java/codestyle.xml/AvoidUsingNativeCode" deprecated="true" />
+<rule ref="category/java/codestyle.xml/ClassNamingConventions" deprecated="true" />
+<rule ref="category/java/codestyle.xml/EmptyMethodInAbstractClassShouldBeAbstract" deprecated="true" />
+<rule ref="category/java/codestyle.xml/FieldNamingConventions" deprecated="true" />
+<rule ref="category/java/codestyle.xml/FormalParameterNamingConventions" deprecated="true" />
+<rule ref="category/java/codestyle.xml/LocalVariableNamingConventions" deprecated="true" />
+<rule ref="category/java/codestyle.xml/MethodNamingConventions" deprecated="true" />
+<rule ref="category/java/codestyle.xml/VariableNamingConventions" deprecated="true" />
+<rule ref="category/java/design.xml/AbstractClassWithoutAnyMethod" deprecated="true" />
+<rule ref="category/java/design.xml/AvoidThrowingNullPointerException" deprecated="true" />
+<rule ref="category/java/design.xml/AvoidThrowingRawExceptionTypes" deprecated="true" />
+<rule ref="category/java/design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal" deprecated="true" />
+<rule ref="category/java/errorprone.xml/AvoidAssertAsIdentifier" deprecated="true" />
+<rule ref="category/java/errorprone.xml/AvoidBranchingStatementAsLastInLoop" deprecated="true" />
+<rule ref="category/java/errorprone.xml/AvoidEnumAsIdentifier" deprecated="true" />
+<rule ref="category/java/errorprone.xml/AvoidLosingExceptionInformation" deprecated="true" />
+<rule ref="category/java/errorprone.xml/AvoidMultipleUnaryOperators" deprecated="true" />
+<rule ref="category/java/errorprone.xml/BrokenNullCheck" deprecated="true" />
+<rule ref="category/java/errorprone.xml/ConstructorCallsOverridableMethod" deprecated="true" />
+<rule ref="category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly" deprecated="true" />
+<rule ref="category/java/errorprone.xml/EqualsNull" deprecated="true" />
+<rule ref="category/java/errorprone.xml/LoggerIsNotStaticFinal" deprecated="true" />
+<rule ref="category/java/errorprone.xml/MoreThanOneLogger" deprecated="true" />
+<rule ref="category/java/errorprone.xml/ProperCloneImplementation" deprecated="true" />
+<rule ref="category/java/errorprone.xml/ReturnEmptyArrayRatherThanNull" deprecated="true" />
+<rule ref="category/java/errorprone.xml/SingleMethodSingleton" deprecated="true" />
+<rule ref="category/java/errorprone.xml/SingletonClassReturningNewInstance" deprecated="true" />
+<rule ref="category/java/errorprone.xml/SuspiciousEqualsMethodName" deprecated="true" />
+<rule ref="category/java/multithreading.xml/AvoidUsingVolatile" deprecated="true" />
+<rule ref="category/java/multithreading.xml/DoubleCheckedLocking" deprecated="true" />
+<rule ref="category/java/performance.xml/AvoidFileStream" deprecated="true" />
+<rule ref="category/java/performance.xml/AvoidUsingShortType" deprecated="true" />
+<rule ref="category/java/performance.xml/BooleanInstantiation" deprecated="true" />
+<rule ref="category/java/performance.xml/ByteInstantiation" deprecated="true" />
+<rule ref="category/java/performance.xml/IntegerInstantiation" deprecated="true" />
+<rule ref="category/java/performance.xml/LongInstantiation" deprecated="true" />
+<rule ref="category/java/performance.xml/ShortInstantiation" deprecated="true" />
+<rule ref="category/java/performance.xml/StringInstantiation" deprecated="true" />
+</ruleset>
